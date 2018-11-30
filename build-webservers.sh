@@ -1,0 +1,1 @@
+docker run --rm -ti -v $(pwd):/data ubuntu:14.04 bash -c 'cd /data/src;./fasmarm httpd.fasm httpd;ls -lh  httpd'
